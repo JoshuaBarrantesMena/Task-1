@@ -14,5 +14,11 @@ public class Calculator {
                initDialog = initDialog.concat("sumar, restar, multiplicar y dividir.\n\n");
                
         JOptionPane.showMessageDialog(null, initDialog);
+          
+        String rulesDialog = "reglas para evitar errores";
+        
+        JOptionPane.showMessageDialog(null, rulesDialog);
+        
+        
     }
 }
