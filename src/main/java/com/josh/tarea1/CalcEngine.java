@@ -33,12 +33,6 @@ public class CalcEngine {
     }
     
     public float splitNumbers(){
-        
-        if (this.num1 == 0){
-            return (this.num1 / this.num2);
-        }else{
-            JOptionPane.showMessageDialog(null, "El numero 1 debe ser diferente de '0'");
-            return 0;
-        }
+        return (this.num1 / this.num2);
     }
 }

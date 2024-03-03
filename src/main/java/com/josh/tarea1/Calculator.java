@@ -19,6 +19,11 @@ public class Calculator {
         
         JOptionPane.showMessageDialog(null, rulesDialog);
         
+        int num1 = 2, num2 = 4;
         
+        CalcEngine numbers = new CalcEngine(num1, num2);
+        
+        JOptionPane.showMessageDialog(null, numbers.multiplyNumbers()); //test
+        //JOptionPane.showMessageDialog(null, "El numero 1 debe ser diferente de '0'");
     }
 }
