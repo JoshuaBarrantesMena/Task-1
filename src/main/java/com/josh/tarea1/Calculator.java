@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
  *
  * @author Josh
  */
-public class Tarea1 {
+public class Calculator {
 
     public static void main(String[] args) {
         
